@@ -1,11 +1,11 @@
-import msnLogo from "@/assets/msn-logo.png";
+import ftsLogo from "@/assets/fts-logo.png";
 
 const BrandHeader = () => {
   return (
     <div className="flex items-center justify-between border-b border-border px-4 py-2 bg-background">
       <div className="flex items-center gap-4">
-        <img src={msnLogo} alt="MSN Logo" className="h-8 w-8" />
-        <h1 className="text-2xl font-bold tracking-widest text-primary glow-green">MSN</h1>
+        <img src={ftsLogo} alt="FTS Logo" className="h-8 w-8" />
+        <h1 className="text-2xl font-bold tracking-widest text-primary glow-green">FTS</h1>
         <span className="text-xs text-terminal-dim">PREDICTION MARKET INTELLIGENCE TERMINAL</span>
       </div>
       <div className="flex items-center gap-4 text-xs text-terminal-dim">
